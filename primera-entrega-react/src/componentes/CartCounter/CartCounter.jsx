@@ -1,9 +1,9 @@
-
+import './CartCounter.css'
 
 const CartCounter = () => {
     return (
-        <div>
-            <p>10</p>
+        <div id="cart-icon">
+            <span id='cart-count' >10</span>
         </div>
     )
 }
